@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body
+		{
+			padding: 0;
+			margin: 0;
+			height: 1000px;
+			background-color: #ffd200;
+		}
+		h5
+		{
+			font-size: 3em;
+			margin: 0;
+			padding: 0;
+			font-family:'Montserrat Medium';
+			text-align: left;
+		}
+		form
+		{
+			font-size: 1em;
+			margin: 5%;
+			padding: 0;
+			font-family: 'Montserrat Medium';
+			text-align: 'left';
+		}
+		input
+		{
+			font-size: 1em;
+			font-family: 'Montserrat Medium';
+		}
+		select
+		{
+			font-size: 1em;
+			font-family: 'Montserrat Medium';
+		}
+		textarea
+		{
+			font-size: 1em;
+			font-family: 'Montserrat Medium';
+		}
+	</style>
+</head>
+<body>
+	<h5><b><br>Contact</b></h5>
+	
+	<form action="thanks.html" method="post" autocomplete="on" name="contact_form" target="_blank" border="1px">
+		First Name:<br>
+		<input type="text" name="fname" size="50%"><br><br>
+		Last Name: <br>
+		<input type="text" name="lname" size="50%"> <br><br>
+		User Name: <br>
+		<input type="text" name="username" size="50%"><br><br>
+		Password: <br>
+		<input type="password" name="userpass" size="50%"><br><br>
+		Gender: <br>
+		Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender">Other <input type="radio" name="Gender"> <br><br>
+		Country: <br>
+		<select>
+			<option style="color: transparent; background-color: antiquewhite;">Select a country</option>
+			<option>Algeria</option>
+			<option>Afghanistan</option>
+			<option>Albania</option>
+			<option>Andorra</option>
+			<option>Angola</option>
+			<option>Bangladesh</option>
+			<option>Belgium</option>
+			<option>Australia</option>
+			<option>Bolivia</option>
+			<option>Brazil</option>
+			<option>Cambodia</option>
+			<option>China</option>
+			<option>Denmark</option>
+			<option>Egypt</option>
+			<option>France</option>
+			<option>Germany</option>
+		</select><br><br>
+		Date of Birth: <br>
+		<input type="Date" name="dob" size="50%"> <br><br>
+		E-mail: <br>
+		<input type="email" name="Email" size="50%"> <br><br>
+		Mobile: <br>
+		<input type="tel" name="mobileno" size="50%"> <br><br>
+		Message:<br>
+		<textarea cols="50" rows="10" name="message" spellcheck="on" autocomplete="on"></textarea> <br><br>
+		<input type="submit" name="submit">
+		<input type="reset" value="clear">
+
+	</form>
+	
+</body>
+</html>
